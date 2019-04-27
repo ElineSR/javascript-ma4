@@ -1,0 +1,97 @@
+1.What is the DOM?
+	
+	DOM is the Document Object Model. It creates a model of the current webpage.
+	It can be similar to a flow chart or compare it to a map of the website with 
+	the different elements.It uses objects to create a representation of of the 
+	current page. Programs can then change the structure of the document, the style
+	and the content.  
+
+
+2.List three methods to manipulate the DOM.
+
+	Creates a HTML element:
+	Use the method:  document.createElement(element)
+	
+	Remove an HTML element: 
+	document.removeChild(element)
+		
+	Change the style of an HTML element
+	element.style.property = new style
+
+
+3.What is an asynchronous call?
+
+	If a call is synchronous it will stop the application it is executing when 
+	reaching the script. Return or load that and then continue. Asynchronous means
+	the execution of the code is not blocked or wait for the Application Programming 
+	Interface (API) call to return from the server. It will continue to load the 
+	content of a webpage at the same time as getting information from other pages. 
+	This allows you to have a better control of what order different parts of your 
+	website executes. Ajax is short for asynchronous JavaScript and XML. It is a set 
+	of web development techniques to create asynchronous web applications on the 
+	client-side.  This is to make the web application feel more responsive. Also 
+	the site can exchange specific data with the server instead of loading everything
+	again. This helps with the interaction, speed and user-friendliness of the site. 
+
+
+4.Briefly explain what the sources tab in Chromes Developers Tools does.
+	
+	The source tab allows you to go step by step through your code to find bugs or errors.
+	It has three panels. File Navigator showing all the files that are requested by the site.
+	The code editor wich shows the content of the selected file and the Javascript debugging 
+	panel with many tools for inspecting the javascript. It has many options to isolate 
+	code and narrow in on what you might think is the bug. Over all a very helpfull tool 
+	for locating and speeding up the process of debugging.  
+
+
+5.What is a JavaScript promise?
+
+	A javascript promise uses a executor function with the two parameters, resolve and reject
+	(Promise kept or broken), to test an argument. Did it work or did it fail?
+	It helps you with resolving callback bugs. With promises you will be creating them and
+	then handling them based on the outcome. They are generally used for easier handeling of 
+	asynchronous operations or blocking code.
+
+
+
+6.What is an API?
+
+	API is short for Application Programming Interface. Apis let programs talk to each other .
+	The DOM of a website is an API. It allows scripts to access the content and change/update it.
+	Social media platforms open up so that you can access and update data they stor through 
+	the websites and apps.To use an API you need know what it allows you to do, how to access it 
+	ask it to do tasks through calling functions, creating objects, accessing properties and methods 
+	of an object. You can fetch information, scripts and a lot of different data types.
+
+
+7.What is a JavaScript Event?
+
+	A javascript event happens when your webbrowser registers your actions If you have 
+	corresponding javascript instructions (called an event handler, a block of code, 
+	which may also be called an event listener)for what will happen then that is an event.
+	
+	Event handling:
+					1:Select element node or nodes you want the script to respond to.
+					2:Indicate what event on the selected node or nodes will trigger a response.
+					3:State the code you want to run when the event occurs.
+					
+	For example if you click on a button and an alert pops up. Give confirmation when a 
+	input is submitted. Triggering something by hovering your mousepointer over it and 
+	also when mousepointer leaves that space. scrolling up or down on the page can 
+	trigger an event. Some sites are horribly annoying with this. Interrupting your 
+	reading halfway through. There are many ways to start an event. They can also be added 
+	and removed with functions. Removing event handlers not in use can improve efficiency. 
+	This creates interaction with the user and allowing for a more engaging site or annoying when overused. 
+
+
+
+
+
+8.What is event bubbling?
+	
+	Event bubbling is about the event flow.It is one side of event propagation where the other is 
+	event capturing. This happend when you trigger an event and parent element also gets triggered. 
+	It starts at the most specific node and then flows outwards to the least specific one. so
+	Event bubbling is bubbles up through the DOM while event capturing flows down through the DOM.
+
+
