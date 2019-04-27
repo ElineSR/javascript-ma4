@@ -4,7 +4,7 @@
 	It can be similar to a flow chart or compare it to a map of the website with 
 	the different elements.It uses objects to create a representation of of the 
 	current page. Programs can then change the structure of the document, the style
-	and the content.  
+	and the content. 
 
 
 2.List three methods to manipulate the DOM.
