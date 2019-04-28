@@ -47,7 +47,3 @@ for (var i = 0; i <cards.length; i++){
 cardsTodo.open('GET', "https://jsonplaceholder.typicode.com/todos", true);
 cardsTodo.send(null);
 
-
-
-
-</script>
