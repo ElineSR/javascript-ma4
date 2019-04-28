@@ -1,4 +1,4 @@
-<script>
+
 //var requestURL = "https://jsonplaceholder.typicode.com/todos";
 //var request = new XMLHttpRequest();
 //request.open('GET',requestURL);
